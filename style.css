@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(208, 237, 210);
+    max-width: 1400px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.cards-item{
+    background-color: peachpuff;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.first-row{
+    display: flex;
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px 5px;
+}
+.title{
+    padding: 50px 10px;
+}
+.card-content{
+    padding: 15px;
+    text-align: center;
+    
+}
+a{
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color:rgb(221, 37, 89);
+    color: white;
+    text-decoration: none;
+}
+
